@@ -11,7 +11,7 @@ print(">>>Enter the following information to calculate cost of desired Steam lev
 # Formatting
 hyp_count = 29		# Number of hyphens printed
 right_align = 21	# Right aligning input() message
-secs = 5			# Sleep for this many seconds
+secs = 5		# Sleep for this many seconds
 
 try: # User input inside of try for exception handling
 	print("-" * hyp_count)
