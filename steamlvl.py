@@ -5,7 +5,7 @@ from math import ceil
 from time import sleep
 
 # Basic information printed every time
-print(">>>Enter the following information to calculate cost of desired Steam level",
+print(	">>>Enter the following information to calculate cost of desired Steam level",
 	"\n>>>Calculations are based on XP\n>>>To force exit press CTRL + C\n")
 
 # Formatting
