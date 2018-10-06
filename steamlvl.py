@@ -66,7 +66,7 @@ try:
 except ValueError:
 	print_error(7)
 except KeyboardInterrupt:
-	print()					# Print new line character, else hyphens printed in input line
+	print()					# Print newline character, else hyphens printed in input line
 	print_error(8)
 
 def roundup(xp):				# Round up by 100 because one badge equals 100 XP
