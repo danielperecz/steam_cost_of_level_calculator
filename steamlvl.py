@@ -63,12 +63,12 @@ except KeyboardInterrupt:
 	print("\n>>>Force exited")
 	exit() # No sleep() here on purpose -- CTRL + C should have an instant effect
 
-def roundup(xp):						# Round up by 100 because one badge equals 100 XP
+def roundup(xp):				# Round up by 100 because one badge equals 100 XP
 	return int(ceil(xp / 100.0)) * 100 	# Example: you have 25 XP and want to reach level 1 (100 XP),
-										#          you therefore need one badge. Since getting a fraction of
-										#          a badge is not possible, you need the whole badge.
-										# Not taking this into account would result in an incorrect
-										# amount of badges needed (i.e. n-1).
+						#          you therefore need one badge. Since getting a fraction of
+						#          a badge is not possible, you need the whole badge.
+						# Not taking this into account would result in an incorrect
+						# amount of badges needed (i.e. n-1).
 
 def main(): # All of the calculations take place inside of main() so that it's easier to see what's going on
 	xp_needed = (desired_level_xp - current_xp)
