@@ -8,12 +8,6 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
    - Example: ```C:\Codes\steamlvl.py```
 
 ### Example usage
-C:\Codes\steamlvl.py
-Enter the following information to calculate cost of desired Steam level
-Calculations are based on XP
-To force exit press CTRL + C
-
-
                      INPUT
            Current XP: 21134
            Desired XP: 50000
