@@ -1,4 +1,4 @@
-# Written using Python 3.6.3
+# Written using Python 3
 
 from sys import exit
 from math import ceil
@@ -23,7 +23,7 @@ error_msgs = 	{
 			6 : "\n>>>ERROR: maximum value is 15",
 			7 : "\n>>>ERROR: enter a whole number",
 			8 : "\n>>>Force exited"
-		}
+	}
 
 def print_error(msg):
 	"""Prints hyphens, error messages, and takes care of stopping script execution"""
@@ -75,7 +75,6 @@ def roundup(xp):				# Round up by 100 because one badge equals 100 XP
 						#          a badge is not possible, you need the whole badge.
 						# Not taking this into account would result in an incorrect
 						# amount of badges needed (i.e. n-1).
-
 def main():
 	""""All of the calculations take place inside of main(), so that it's easier to see what's going on"""
 	xp_needed = (desired_level_xp - current_xp)
