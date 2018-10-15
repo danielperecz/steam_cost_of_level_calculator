@@ -13,7 +13,7 @@ Enter the following information to calculate cost of desired Steam level
 Calculations are based on XP
 To force exit press CTRL + C
 
-#-----------------------------
+
                      INPUT
            Current XP: 21134
            Desired XP: 50000
@@ -23,4 +23,3 @@ To force exit press CTRL + C
                      OUTPUT
                Cost: 72.25
       Badges needed: 289
-#-----------------------------
