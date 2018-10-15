@@ -8,6 +8,7 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
    - Example: ```C:\Codes\steamlvl.py```
 
 ### Example usage
+
                      INPUT
          Current XP: 5
          Desired XP: 1425
