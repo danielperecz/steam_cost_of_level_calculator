@@ -15,10 +15,10 @@ To force exit press CTRL + C
 
 #-----------------------------
                      INPUT
-         Current XP: 21134
-         Desired XP: 50000
-   Cost of one card: 0.05
-     Cards in badge: 5
+           Current XP: 21134
+           Desired XP: 50000
+     Cost of one card: 0.05
+       Cards in badge: 5
 
                      OUTPUT
                Cost: 72.25
