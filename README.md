@@ -8,7 +8,7 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
    - Example: ```C:\Codes\steamlvl.py```
 
 ### Example usage
- `                    INPUT
+                     INPUT
          Current XP: 5
          Desired XP: 1425
    Cost of one card: 0.05
@@ -17,4 +17,3 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
                      OUTPUT
                Cost: 3.75
       Badges needed: 15
-`
