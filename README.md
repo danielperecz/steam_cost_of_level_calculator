@@ -16,4 +16,4 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
 
                      OUTPUT
                Cost: 3.75
-      Badges needed: 15
+        Badges needed: 15
