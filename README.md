@@ -13,7 +13,7 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
          Desired XP: 1425
    Cost of one card: 0.05
      Cards in badge: 5
-
+     
                      OUTPUT
                Cost: 3.75
       Badges needed: 15
