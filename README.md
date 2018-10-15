@@ -8,12 +8,19 @@ Calculates the cost of reaching a certain level (from your current level) on Ste
    - Example: ```C:\Codes\steamlvl.py```
 
 ### Example usage
+C:\Users\Neutrino>C:\Codes\steamlvl.py
+>>>Enter the following information to calculate cost of desired Steam level
+>>>Calculations are based on XP
+>>>To force exit press CTRL + C
+
+-----------------------------
                      INPUT
          Current XP: 5
          Desired XP: 1425
    Cost of one card: 0.05
      Cards in badge: 5
-     
+
                      OUTPUT
                Cost: 3.75
       Badges needed: 15
+-----------------------------
