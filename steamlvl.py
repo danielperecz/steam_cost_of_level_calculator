@@ -85,7 +85,6 @@ def main():
 	badge_cost = float(card_cost * num_of_cards)
 	desired_level_cost = float(badge_cost * num_of_badges_needed)
 	
-	
 	# Printing the result
 	print("\n{:>{}}".format("OUTPUT", right_align + 6))
 	if str(desired_level_cost).endswith("0"): 		# If a whole number, print it in int format (i.e. print 5 not 5.0)
