@@ -32,7 +32,8 @@ def print_error(msg):
 	print(error_msgs[msg])
 	if msg == 8:
 		secs = 0		# Should have instant effect in the case of CTRL + C
-	sleep(secs), exit()
+	sleep(secs)
+	exit()
 
 try:
 	"""User input inside of try for exception handling"""
@@ -77,13 +78,17 @@ def roundup(xp):				# Round up by 100 because one badge equals 100 XP
 						# amount of badges needed (i.e. n-1).
 def main():
 	""""All of the calculations take place inside of main(), so that it's easier to see what's going on"""
+	
+	# Calculations
 	xp_needed = (desired_level_xp - current_xp)
 	num_of_badges_needed = (roundup(xp_needed) / 100)
 	badge_cost = float(card_cost * num_of_cards)
 	desired_level_cost = float(badge_cost * num_of_badges_needed)
-
+	
+	
+	# Printing the result
 	print("\n{:>{}}".format("OUTPUT", right_align + 6))
-	if str(desired_level_cost).endswith("0"): # If a whole number, print it in int format (i.e. print 5 not 5.0)
+	if str(desired_level_cost).endswith("0"): 		# If a whole number, print it in int format (i.e. print 5 not 5.0)
 		print("{:>{}}{:,}".format("Cost: ", right_align, int(desired_level_cost)))
 	else:
 		print("{:>{}}{:,.2f}".format("Cost: ", right_align, desired_level_cost))
