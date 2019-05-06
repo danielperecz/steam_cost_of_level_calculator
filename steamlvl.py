@@ -26,10 +26,11 @@ error_msgs = 	{
 	}
 
 def print_error(msg):
-	"""Prints hyphens, error messages, and takes care of stopping script execution"""
+	"""The function takes an integer parameter.
+	Prints hyphens, error messages, and takes care of stopping script execution"""
 	global secs
 	print("-" * hyp_count)
-	print(error_msgs[msg])
+	print(error_msgs[msg])		# Here the message is referened and printed from error_msgs
 	if msg == 8:
 		secs = 0		# Should have instant effect in the case of CTRL + C
 	sleep(secs)
